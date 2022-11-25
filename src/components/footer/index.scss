@@ -1,0 +1,262 @@
+.containerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #FFF;
+    font-size: 12px;
+    div{
+        min-width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #3D1A1A;
+
+        .email{
+            display: flex;
+            min-width: 85vw;
+            justify-content: center;
+            text-align: center;
+            margin-top: 3vh;
+            margin-bottom: 1vh;
+        }
+        .phone{
+            display: flex;
+            min-width: 85vw;
+            justify-content: center;
+            text-align: center;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+        }
+        .description{
+            display: flex;
+            min-width: 85vw;
+            max-width: 85vw;
+            justify-content: center;
+            text-align: center;
+            font-size: 12x;
+            margin-top: 1vh;
+            margin-bottom: 3vh;
+        }
+
+
+        .home{
+            margin-top: 3vh;
+            margin-left: 5vw;
+            display: flex;
+            min-width: 30vw;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+        .vip{
+            margin-top: 3vh;
+            display: flex;
+            min-width: 30vw;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+        .contact{
+            margin-top: 3vh;
+            display: flex;
+            min-width: 30vw;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+        .about{
+            margin-top: 0vh;
+            display: flex;
+            min-width: 30vw;
+            justify-content: center;
+            text-transform: uppercase;
+        }
+        .gallery{
+            margin-top: 3vh;
+            display: flex;
+            min-width: 30vw;
+            justify-content: center;
+            text-transform: uppercase;
+            margin-bottom: 3vh;
+        }
+        .iconFace{   
+            margin-top: 3vh;
+            display: flex;
+            min-width: 45vw;
+            display: flex;
+            padding-right: 3vw;
+            justify-content: flex-end;
+            margin-bottom: 3vh;
+         }
+        .iconInsta{
+            display: flex;
+            min-width: 45vw;
+            display: flex;
+            padding-left: 3vw;
+            justify-content: flex-start;
+        }
+    }
+    
+    .logo{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        min-width: 85vw;
+        min-height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+@media (min-width:800px) and (min-width:600px){
+
+
+    .containerFooter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: #FFF;
+        font-size: 12px;
+        div{
+            min-width: 75vw;
+            max-width: 75vw;
+            max-height: 20vh;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #3D1A1A;
+    
+            .email{
+                display: flex;
+                min-width: 20vw;
+                justify-content: flex-start;
+                text-align: left;
+                margin-top: 2vh;
+                margin-bottom: 0vh;
+                border-left: 1px solid #FFF;
+                padding-left: 1vw;
+                font-size: 9px;
+            }
+            .phone{
+
+                display: flex;
+                display: flex;
+                min-width: 20vw;
+                justify-content: left;
+                text-align: center;
+                margin-top: 0vh;
+                margin-bottom: 0vh;
+                border-left: 1px solid #FFF;
+                padding-left: 1vw;
+                padding-top: 1vw;
+                font-size: 9px;
+
+            }
+            .description{
+                display: flex;
+                min-width: 20vw;
+                max-width: 20vw;
+                justify-content: left;
+                text-align: left;
+                font-size: 9px;
+                margin-top: 0vh;
+                margin-bottom: 2vh;
+                border-left: 1px solid #FFF;
+                padding-left: 1vw;
+                padding-top: 1vw;
+            }
+    
+    
+            .home{
+                margin-top: 2vh;
+                margin-left: 0vw;
+                display: flex;
+                min-width: 10vw;
+                font-size: 12px;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+            .vip{
+                margin-top: 2vh;
+                display: flex;
+                font-size: 12px;
+                min-width: 10vw;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+            .contact{
+                margin-top: 2vh;
+                display: flex;
+                font-size: 12px;
+                min-width: 10vw;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+            .about{
+                min-height: 5vh;
+                margin-top: 2vh;
+                display: flex;
+                font-size: 12px;
+                margin-left: 0px;
+                min-width: 10vw;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+            .gallery{
+                margin-top: -0.58vh;
+                display: flex;
+                font-size: 14px;
+                min-width: 20vw;
+                justify-content: center;
+                text-transform: uppercase;
+                margin-bottom: 0vh;
+            }
+            .iconFace{   
+                min-height: 10vh;
+                margin-top: 3vh;
+                display: flex;
+                align-items: flex-start;
+                min-width: 5vw;
+                padding-right: 0vw;
+                justify-content: center;
+                margin-bottom: 0vh;
+                img{
+                    min-width: 1.55vw;
+                }
+             }
+            .iconInsta{
+                min-height: 10vh;
+                margin-top: 3vh;
+                display: flex;
+                align-items: flex-start;
+                min-width: 5vw;
+                padding-left: 0vw;
+                justify-content: center;
+                img{
+                    min-width: 3vw;
+                }
+            }
+        }
+        
+        .logo{
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+            min-width: 25vw;
+            min-height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    
+}

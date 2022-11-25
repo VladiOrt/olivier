@@ -1,0 +1,109 @@
+.PageOneContainer{
+    min-width: 100vw;
+    min-height: 95vh;
+    background-image: url('../../../img/home/index.webp');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 260vw;
+    background-position-y: -0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    .logoPageone{
+        min-width: 85vw;
+        max-width: 85vw;
+        margin-top: 12vh;
+        text-align: center;
+        img{
+            color: #FFF;
+        }
+    }
+    .titleOne{
+        margin-top: 1.5vh;
+        min-width: 85vw;
+        max-width: 85vw;
+        text-align: center;
+        color: #FFF;
+        font-size: 12px;
+        min-height: 5vh;
+
+        display: flex;
+        border-top: 5px solid #FFF;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: Palatino;
+    }
+    .SubtitleOne{
+        font-family: Montserrat;
+        margin-top: 10px;
+        min-width: 85vw;
+        max-width: 85vw;
+        text-align: center;
+        color: #FFF;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:800px) and (min-width:600px){
+    .PageOneContainer{
+        min-width: 100vw;
+        min-height: 95vh;
+        background-image: url('../../../img/home/index.webp');
+        background-repeat: no-repeat;
+        background-size: 150vw;
+        background-position: center;
+        background-position-x: 0vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+    
+        .logoPageone{
+            margin-right: 10vw;
+            min-width: 35vw;
+            max-width: 35vw;
+            margin-top: 30vh;
+            text-align: center;
+            img{
+                color: #FFF;               
+            }
+            
+
+           
+        }
+        .titleOne{
+            margin-right: 10vw;
+            margin-top: 1.5vh;
+            padding-top: 0vh;
+            min-width: 35vw;
+            max-width: 35vw;
+            text-align: center;
+            color: #FFF;
+            font-size: 12px;
+            min-height: 5vh;
+    
+            display: flex;
+            border-top: 2px solid #FFF;
+            justify-content: right;
+            align-items: flex-end;
+            font-family: Palatino;
+        }
+        .SubtitleOne{
+            margin-right: 10vw;
+            font-family: Montserrat;
+            margin-top: 10px;
+            min-width: 35vw;
+            max-width: 35vw;
+            text-align: right;
+            color: #FFF;
+            font-size: 14px;
+        }
+    }
+    
+}

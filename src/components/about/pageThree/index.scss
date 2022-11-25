@@ -1,0 +1,109 @@
+.pageThreeContainerAbout{
+    min-height: 80vh;
+    min-width: 100vw;
+    background-color: #F2F2F2;
+    background-image: url('../../../img/about/Image2.webp');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: 110vw;
+
+    section{
+        background-color: #FFF;
+        min-width: 81vw;
+        max-width: 81vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        min-height: 30vh;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 12px;
+        .title{
+            text-align: center;
+            color: #C68738;
+            font-size: 20px;
+            margin-top: 2vh;
+        }
+        .subtitle{
+            text-align: center
+
+        }
+        text{
+            min-width: 70vw;
+            max-width: 70vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 10px;
+            line-height: 15px;
+
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:800px) and (min-width:600px){
+
+    .pageThreeContainerAbout{
+        padding-top: 10vh;
+        min-height: 80vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/about/Image2.webp');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-x: 10vw;
+        background-size: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    
+        section{
+            margin-bottom: 25vh;
+            margin-left: 35vw;
+            background-color: #FFF;
+            min-width: 40vw;
+            max-width: 40vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 25vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            .title{
+                text-align: left;
+                color: #C68738;
+                font-size: 35px;
+                margin-top: 2vh;
+                margin-bottom: 0vh;
+                min-width: 35vw;
+                display: none;
+            }
+            .subtitle{
+                display: none;
+                text-align: left;                    
+            }
+            text{
+                margin-top: 0vh;
+                min-width: 32vw;
+                padding-left: 3vw;
+                max-width: 30vw;
+                font-size: 11px;
+                margin-bottom: 0vh;
+                text-align: left;    
+            }
+        }
+    }
+    
+    
+}

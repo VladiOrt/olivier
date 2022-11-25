@@ -1,0 +1,240 @@
+.PageFiveContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+
+
+
+
+    .sectionOne{
+        min-width: 100vw;
+        min-height: 15vh;
+        background-image: url('../../../img/home/Fondo4-1.webp');
+        background-repeat: no-repeat;
+        display:  flex;
+        justify-content: center;
+        background-size: 150vw;
+        background-position-y: -5vh;
+        background-position-x: -25vw;
+        align-items: center;
+    }
+    .sectionTwo{
+        min-width: 100vw;
+        min-height: 35vh;
+        background-image: url('../../../img/home/Fondo4-2.webp');
+        background-repeat: no-repeat;
+        display:  flex;
+        background-size: 150vw;
+        background-position-y: 0vh;
+        background-position-x: -20vw;
+    }
+    .sectionThree{
+        min-width: 100vw;
+        min-height: 20vh;
+        background-color: white;
+        background-image: url('../../../img/carruseles/img4-1.svg');
+        background-repeat: no-repeat;
+        display:  flex;
+        background-size: 110vw;
+        background-position-y: 5vh;
+        background-position-x: 5vw;
+    }
+    .sectionFour{
+        min-width: 100vw;
+        min-height: 35vh;
+        background-repeat: no-repeat;
+        display:  flex;
+        justify-content: center;
+        background-size: 130vw;
+        background-position-y: 0vh;
+        background-position-x: -20vw;
+
+
+
+
+        .ImageOne{
+            z-index: 3;
+            position: absolute;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo4-01.webp');
+            background-size: cover;
+
+        }
+        .ImageTwo{
+            z-index: 2;
+            position: absolute;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo4-02.webp');
+            background-size: 140vw;
+            background-position-x: 0vw;
+        }
+        .ImageThree{
+            z-index: 1;
+            position: absolute;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo4-03.webp');
+            background-size: 130vw;
+            background-position-x: 0vw;
+        }
+
+    
+ 
+
+        ul{
+            z-index: 4;
+            min-width: 60vw;
+            margin-top: 40vw;
+            min-height: 5vh;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            li{
+                list-style: none;
+                min-width: 15px;
+                max-width: 15px;
+                min-height: 15px;
+                max-height: 15px;
+                border-radius: 10px;
+                border: 2px solid #C68738 ;
+                background-color: aliceblue;
+            }
+        }
+
+
+    }
+      
+}
+
+
+
+
+@media (min-width:800px) and (min-width:600px){
+
+    .PageFiveContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    
+    
+    
+    
+    
+        .sectionOne{
+            order: 2;
+            min-width: 40vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo4-1Desktop.svg');
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            background-size: 80vw;
+            background-position-y: -10vh;
+            background-position-x: -20vw;
+            align-items: center;
+        }
+        .sectionTwo{
+            order: 1;
+            min-width:60vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo4-2.webp');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 90vw;
+            background-position-y: 0vh;
+            background-position-x: -10vw;
+        }
+        .sectionThree{
+            order: 3;
+            min-width: 100vw;
+            min-height: 20vh;
+            background-color: white;
+            background-image: url('../../../img/home/Fondo4-3.svg');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 70vw;
+            background-position-y: 5vh;
+            background-position-x: 15vw;
+        }
+        .sectionFour{
+            order: 4;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: space-between;
+            background-size: 130vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+    
+    
+    
+    
+            .ImageOne{
+                z-index: 3;
+                position: static;
+                min-width: 29.5vw;
+                min-height: 35vh;
+                background-image: url('../../../img/home/Fondo4-01.webp');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .ImageTwo{
+                z-index: 2;
+                position: static;
+                min-width: 39vw;
+                min-height: 35vh;
+                background-image: url('../../../img/home/Fondo4-02.webp');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .ImageThree{
+                z-index: 1;
+                position: static;
+                min-width: 29.5vw;
+                min-height: 35vh;
+                background-image: url('../../../img/home/Fondo4-03.webp');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+    
+        
+     
+    
+            ul{
+                z-index: 4;
+                min-width: 60vw;
+                margin-top: 40vw;
+                min-height: 5vh;
+                position: absolute;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                display: none;
+                li{
+                    list-style: none;
+                    min-width: 15px;
+                    max-width: 15px;
+                    min-height: 15px;
+                    max-height: 15px;
+                    border-radius: 10px;
+                    border: 2px solid #C68738 ;
+                    background-color: aliceblue;
+                }
+            }
+    
+    
+        }
+          
+    }
+    
+
+}

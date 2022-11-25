@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;;
+}
+.containerHeader{
+    position: fixed;
+    z-index: 100;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .containerHeaderPrincipal{
+        display: flex;
+        min-width: 100vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 8vh;
+        justify-content: center;
+        background-color: #C68738;
+        .containerHeaderPrincipalMenu{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            min-width: 85vw;
+            justify-content: space-between;
+            align-items: center;
+            .containerHeaderPrincipalBotonMenu{
+                min-width: 30px;
+                max-width: 30px;
+                min-height: 20px;
+                max-height: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                div{
+                    min-height: 3px;
+                    min-width: 25px;
+                    background-color: #FFF;
+                }
+                .containerHeaderPrincipalBotonLineaUno{
+                }
+                .containerHeaderPrincipalBotonLineaDos{
+                }
+                .containerHeaderPrincipalBotonLineaTres{
+                }
+            }
+            .containerHeaderPrincipalBotonIdioma{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                color: #FFF;
+                font-family: Montserrat;
+                .button{
+                    margin-left: 5px;
+                    width: 0; 
+                    height: 0; 
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;                    
+                    border-bottom: 5px solid #FFF;
+                    rotate: 180deg;
+                }
+            }
+
+        }
+    }
+    .containerHeaderContent{
+        min-height: 92vh;
+        min-width: 80vw;
+        background-color: rgba( #3D1A1A,  0.98);
+        color: #FFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        display: none;
+        label{
+            min-width: 100vw;
+            min-height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgba( 255, 255, 255,  0.2);
+            img{
+                min-width: 60vw;
+                max-width: 60vw;
+            }
+        }
+        ul{
+            min-width: 100vw;
+            min-height: 50vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-family: Montserrat;
+                color: #FFF;
+            }
+            li{
+                min-width: 85vw;
+                font-family: MontserratLight;
+                font-size: 20px;
+                text-align: center;
+                letter-spacing: 3px;
+            }
+            li:active{
+                color: #CCA549;
+            }          
+        }
+        div{
+            min-width: 30vw;
+            min-height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-family: Montserrat;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width:800px) and (min-width:600px){
+
+    .containerHeader{
+        position: fixed;
+        z-index: 100;
+        display:  flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .containerHeaderPrincipal{
+            display: flex;
+            min-width: 100vw;
+            flex-direction: row;
+            flex-wrap: wrap;
+            min-height: 8vh;
+            justify-content: center;
+            background-color: #C68738;
+            .containerHeaderPrincipalMenu{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                min-width: 85vw;
+                justify-content: space-between;
+                align-items: center;
+                .containerHeaderPrincipalBotonMenu{
+                    min-width: 30px;
+                    max-width: 30px;
+                    min-height: 20px;
+                    max-height: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    div{
+                        min-height: 3px;
+                        min-width: 25px;
+                        background-color: #FFF;
+                    }
+                    .containerHeaderPrincipalBotonLineaUno{
+                    }
+                    .containerHeaderPrincipalBotonLineaDos{
+                    }
+                    .containerHeaderPrincipalBotonLineaTres{
+                    }
+                }
+                .containerHeaderPrincipalBotonIdioma{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    color: #FFF;
+                    .button{
+                        margin-left: 5px;
+                        width: 0; 
+                        height: 0; 
+                        border-left: 5px solid transparent;
+                        border-right: 5px solid transparent;                    
+                        border-bottom: 5px solid #FFF;
+                        rotate: 180deg;
+                    }
+                }
+    
+            }
+        }
+        .containerHeaderContent{
+            min-height: 92vh;
+            min-width: 85vw;
+            background-color: rgba( #3D1A1A,  0.98);
+            color: #FFF;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            display: none;
+            label{
+                min-width: 40vw;
+                min-height: 15vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgba( 255, 255, 255,  0.2);
+                img{
+                    min-width: 50vw;
+                    max-width: 40vw;
+                }
+            }
+            ul{
+                padding-top: 10vh;
+                min-width: 40vw;
+                max-width: 40vw;
+                min-height: 50vh;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                text-decoration: none;               
+                a{
+                    list-style: none;
+                    text-decoration: none;
+                    font-family: MontserratLight;
+                    letter-spacing: 1px;
+                }     
+                li{
+                    min-width: 35vw;
+                    font-family: MontserratLight;
+                    font-size: 20px;
+                    text-align: center;
+                    text-align: right;
+                    color: #FFF;
+                    letter-spacing: 1px;
+                    font-size: 25px;
+                }
+                li:hover{
+                    transition-duration: 0.5s;
+                    letter-spacing: 10px;
+                }
+                li:active{
+
+                    color: #CCA549;
+                }          
+            }
+            div{
+                min-width: 30vw;
+                margin-left: 55vw;
+                min-height: 15vh;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+                font-family: Montserrat;
+                .logoFace{
+                    min-width: 15px;
+                    margin-right: 3vw;
+                }
+                .logoInsta{
+                    min-width: 28px;
+                }
+            }
+        }
+    
+    }
+    
+}

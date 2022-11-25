@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+@font-face {
+  font-family: Montserrat;
+  src: local('Montserrat'),
+  local("Montserrat"),
+  url('./font/montserrat/Montserrat-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: MontserratLight;
+  src: local('MontserratLight'),
+  local("MontserratLight"),
+  url('./font/montserrat/Montserrat-ExtraLight.ttf');
+  font-weight: lighter;
+}
+
+
+@font-face {
+  font-family: Palatino;
+  src: url('./font/Palatino/Palatino.ttf');
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Montserrat, MontserratLight, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

@@ -1,0 +1,451 @@
+.PageFourContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+    .sectionOne{
+        min-width: 100vw;
+        min-height: 15vh;
+        background-image: url('../../../img/home/Fondo3-1.webp');
+        background-repeat: no-repeat;
+        display:  flex;
+        justify-content: center;
+        background-size: 200vw;
+        background-position-y: -10vh;
+        background-position-x: -50vw;
+        align-items: center;
+    }
+    .sectionTwo{
+        min-width: 100vw;
+        min-height: 35vh;
+        background-image: url('../../../img/home/Fondo3-2.webp');
+        background-repeat: no-repeat;
+        display:  flex;
+        background-size: 150vw;
+        background-position-y: 0vh;
+        background-position-x: -20vw;
+    }
+    .sectionThree{
+        min-width: 100vw;
+        min-height: 20vh;
+        background-color: white;
+        background-image: url('../../../img/carruseles/img3-1.svg');
+        background-repeat: no-repeat;
+        display:  flex;
+        background-size: 130vw;
+        background-position-y: 2.5vh;
+        background-position-x: 0vw;
+
+
+
+
+
+
+
+
+
+
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 15s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-50vw * 3))}
+}
+
+
+// Styling
+.slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100vw;
+	
+
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 50vw;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(50vw * 6);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            min-width: 30vw;
+            max-width: 30vw;
+        }
+        .img1{
+            min-width: 30vw;
+            max-width: 30vw;
+        }
+        .img2{
+            min-width: 40vw;
+            max-width: 40vw;
+        }
+        .img3{
+            min-width: 20vw;
+            max-width: 20vw;
+        }
+        .img4{
+            min-width: 40vw;
+            max-width: 40vw;
+        }
+        .img5{
+            min-width: 40vw;
+            max-width: 40vw;
+        }
+        .img6{
+            min-width: 40vw;
+            max-width: 40vw;
+        }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    .sectionFour{
+        min-width: 100vw;
+        min-height: 35vh;
+        background-repeat: no-repeat;
+        display:  flex;
+        justify-content: center;
+        background-size: 130vw;
+        background-position-y: 0vh;
+        background-position-x: -20vw;
+
+        .ImageOne{
+            z-index: 3;
+            position: absolute;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo3-01.webp');
+            background-size: 130vw;
+            background-position-x: -5vw;
+        }
+        .ImageTwo{
+            z-index: 2;
+            position: absolute;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo3-02.webp');
+            background-size: 320vw;
+            background-repeat: no-repeat;
+            background-position-x: -20vw;
+        }
+        .ImageThree{
+            z-index: 1;
+            position: absolute;
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo3-03.webp');
+            background-size: 130vw;
+            background-position-x: -5vw;
+        }
+
+    
+ 
+
+        ul{
+            z-index: 4;
+            min-width: 60vw;
+            margin-top: 40vw;
+            min-height: 5vh;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            li{
+                list-style: none;
+                min-width: 15px;
+                max-width: 15px;
+                min-height: 15px;
+                max-height: 15px;
+                border-radius: 10px;
+                border: 2px solid #C68738 ;
+                background-color: aliceblue;
+            }
+        }
+
+
+    }
+      
+}
+
+
+
+
+
+
+@media (min-width:800px) and (min-width:600px){
+
+    .PageFourContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    
+        .sectionOne{
+            min-width: 40vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo3-1Desktop.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            background-size: 70vw;
+            background-position-y: -8vh;
+            background-position-x: -17vw;
+            align-items: center;
+        }
+        .sectionTwo{
+            min-width: 60vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo3-2.webp');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 150vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+        }
+        .sectionThree{
+            min-width: 100vw;
+            min-height: 20vh;
+            background-color: white;
+            background-image: none;
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            align-items: center;
+
+
+
+
+
+
+
+
+            @mixin white-gradient {
+                background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+            }
+            
+            $animationSpeed: 15s;
+            
+            // Animation
+            @keyframes scroll {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(calc(-50vw * 3))}
+            }
+            
+            
+            // Styling
+            .slider {
+                background: white;
+                box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+                height: 100px;
+                margin: auto;
+                overflow:hidden;
+                position: relative;
+                width: 100vw;
+                
+            
+                &::before,
+                &::after {
+                    @include white-gradient;
+                    content: "";
+                    height: 100px;
+                    position: absolute;
+                    width: 50vw;
+                    z-index: 2;
+                }
+                
+                &::after {
+                    right: 0;
+                    top: 0;
+                    transform: rotateZ(180deg);
+                }
+            
+                &::before {
+                    left: 0;
+                    top: 0;
+                }
+                
+                .slide-track {
+                    animation: scroll $animationSpeed linear infinite;
+                    display: flex;
+                    width: calc(50vw * 6);
+                }
+                
+                .slide {
+                    height: 100px;
+                    width: 50vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        min-width: 10vw;
+                        max-width: 10vw;
+                    }
+                    .img1{
+                        min-width: 10vw;
+                        max-width: 10vw;
+                    }
+                    .img2{
+                        min-width: 20vw;
+                        max-width: 20vw;
+                    }
+                    .img3{
+                        min-width: 10vw;
+                        max-width: 10vw;
+                    }
+                    .img4{
+                        min-width: 20vw;
+                        max-width: 20vw;
+                    }
+                    .img5{
+                        min-width: 40vw;
+                        max-width: 40vw;
+                    }
+                    .img6{
+                        min-width: 40vw;
+                        max-width: 40vw;
+                    }
+                }
+            }
+            
+            
+
+
+
+
+
+
+
+
+            
+        }
+        .sectionFour{
+            min-width: 100vw;
+            min-height: 35vh;
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: space-between;
+            background-size: 130vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+    
+            .ImageOne{
+                z-index: 3;
+                margin-left: -0.5px;
+                position: static;
+                min-width: 29.5vw;
+                min-height: 25vh;
+                background-image: url('../../../img/home/Fondo3-01.webp');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .ImageTwo{
+                z-index: 3;
+                position: static;
+                min-width: 39vw;
+                min-height: 25vh;
+                background-image: url('../../../img/home/Fondo3-02.webp');
+                background-repeat: no-repeat;
+                background-size: 120vw;
+                background-position-x: -10vw;
+            }
+            .ImageThree{
+                z-index: 3;
+                position: static;
+                min-width: 29.5vw;
+                min-height: 25vh;
+                background-image: url('../../../img/home/Fondo3-03.webp');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: -10vw;
+            }
+    
+        
+     
+    
+            ul{
+                z-index: 4;
+                min-width: 60vw;
+                margin-top: 40vw;
+                min-height: 5vh;
+                position: absolute;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                display: none;
+                li{
+                    list-style: none;
+                    min-width: 15px;
+                    max-width: 15px;
+                    min-height: 15px;
+                    max-height: 15px;
+                    border-radius: 10px;
+                    border: 2px solid #C68738 ;
+                    background-color: aliceblue;
+                }
+            }
+    
+    
+        }
+          
+    }
+    
+    
+
+}
