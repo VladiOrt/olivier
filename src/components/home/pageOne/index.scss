@@ -51,7 +51,114 @@
 
 
 
-@media (min-width:800px) and (min-width:600px){
+@media (min-width:320px) and (min-height:480px){}
+@media (min-width:320px) and (min-height:560px){}
+@media (min-width:320px) and (min-height:568px){}
+@media (min-width:320px) and (min-height:640px){}
+@media (min-width:360px) and (min-height:640px){
+    .PageOneContainer{
+        min-width: 100vw;
+        min-height: 95vh;
+        background-image: url('../../../img/home/index.webp');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 260vw;
+        background-position-y: -0vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        .logoPageone{
+            min-width: 85vw;
+            max-width: 85vw;
+            margin-top: 12vh;
+            text-align: center;
+            img{
+                color: #FFF;
+            }
+        }
+        .titleOne{
+            margin-top: 1.5vh;
+            min-width: 85vw;
+            max-width: 85vw;
+            text-align: center;
+            color: #FFF;
+            font-size: 14px;
+            min-height: 5vh;
+    
+            display: flex;
+            border-top: 5px solid #FFF;
+            justify-content: center;
+            align-items: flex-end;
+            font-family: Palatino;
+        }
+        .SubtitleOne{
+            font-family: Montserrat;
+            margin-top: 10px;
+            min-width: 85vw;
+            max-width: 85vw;
+            text-align: center;
+            color: #FFF;
+            font-size: 13px;
+        }
+    }    
+}
+@media (min-width:375px) and (min-height:667px){}
+@media (min-width:414px) and (min-height:736px){}
+@media (min-width:375px) and (min-height:812px){
+    .PageOneContainer{
+        min-width: 100vw;
+        min-height: 85vh;
+        background-image: url('../../../img/home/index.webp');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 260vw;
+        background-position-y: -0vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        .logoPageone{
+            min-width: 85vw;
+            max-width: 85vw;
+            margin-top: 12vh;
+            text-align: center;
+            img{
+                color: #FFF;
+            }
+        }
+        .titleOne{
+            margin-top: 1.5vh;
+            min-width: 85vw;
+            max-width: 85vw;
+            text-align: center;
+            color: #FFF;
+            font-size: 14px;
+            min-height: 5vh;
+    
+            display: flex;
+            border-top: 5px solid #FFF;
+            justify-content: center;
+            align-items: flex-end;
+            font-family: Palatino;
+        }
+        .SubtitleOne{
+            font-family: Montserrat;
+            margin-top: 10px;
+            min-width: 85vw;
+            max-width: 85vw;
+            text-align: center;
+            color: #FFF;
+            font-size: 13px;
+        }
+    }  
+}
+
+
+
+@media (min-width:800px) and (min-height:600px){
     .PageOneContainer{
         min-width: 100vw;
         min-height: 95vh;

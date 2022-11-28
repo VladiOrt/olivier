@@ -57,6 +57,195 @@
 
 
 
+
+
+@media (min-width:320px) and (min-height:480px){
+
+}
+@media (min-width:320px) and (min-height:560px){
+
+}
+@media (min-width:360px) and (min-height:640px){
+    .pageOneContainer{
+        min-height: 100vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/vip/Img1.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;  
+        background-position: center;
+        background-position-y: 5vh;
+        background-size: 120vw;
+    
+        section{
+    
+            background-color: #FFF;
+            min-width: 81vw;
+            max-width: 81vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 40vh;
+            margin-bottom: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            .title{
+                text-align: center;
+                color: #CCA549;
+                font-size: 35px;
+                font-family: Montserrat;
+                margin-top: 2vh;
+                margin-bottom: 0px;
+            }
+            .subtitle{
+                text-align: center;
+                display: none;
+            }
+            text{
+                min-width: 70vw;
+                max-width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+    
+    
+    
+}
+
+
+@media (min-width:375px) and (min-height:667px){
+
+}
+@media (min-width:414px) and (min-height:736px){
+
+    .pageOneContainer{
+        min-height: 90vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/vip/Img1.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;  
+        background-position: center;
+        background-position-y: 5vh;
+        background-size: 120vw;
+    
+        section{
+    
+            background-color: #FFF;
+            min-width: 81vw;
+            max-width: 81vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 30vh;
+            margin-bottom: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            .title{
+                text-align: center;
+                color: #CCA549;
+                font-size: 35px;
+                font-family: Montserrat;
+                margin-top: 2vh;
+                margin-bottom: 0px;
+            }
+            .subtitle{
+                text-align: center;
+                display: none;
+            }
+            text{
+                min-width: 70vw;
+                max-width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+    
+
+}
+@media (min-width:375px) and (min-height:812px){
+
+    .pageOneContainer{
+        min-height: 80vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/vip/Img1.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;  
+        background-position: center;
+        background-position-y: 5vh;
+        background-size: 120vw;
+    
+        section{
+    
+            background-color: #FFF;
+            min-width: 81vw;
+            max-width: 81vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 30vh;
+            margin-bottom: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            .title{
+                text-align: center;
+                color: #CCA549;
+                font-size: 35px;
+                font-family: Montserrat;
+                margin-top: 2vh;
+                margin-bottom: 0px;
+            }
+            .subtitle{
+                text-align: center;
+                display: none;
+            }
+            text{
+                min-width: 70vw;
+                max-width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+}
+
+
+
+
 @media (min-width:800px) and (min-width:600px){
 
     .pageOneContainer{

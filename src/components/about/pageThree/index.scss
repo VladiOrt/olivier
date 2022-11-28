@@ -50,6 +50,162 @@
 
 
 
+
+
+@media (min-width:320px) and (min-height:480px){}
+@media (min-width:320px) and (min-height:560px){
+    .pageThreeContainerAbout{
+        min-height: 70vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/about/Image2.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: 110vw;
+    
+        section{
+            background-color: #FFF;
+            min-width: 81vw;
+            max-width: 81vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 30vh;
+            margin-bottom: 5vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 12px;
+            .title{
+                text-align: center;
+                color: #C68738;
+                font-size: 20px;
+                margin-top: 2vh;
+            }
+            .subtitle{
+                text-align: center
+    
+            }
+            text{
+                min-width: 70vw;
+                max-width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 11px;
+                line-height: 18px;
+    
+            }
+        }
+    }
+    
+}
+@media (min-width:360px) and (min-height:640px){
+}
+@media (min-width:375px) and (min-height:667px){
+    .pageThreeContainerAbout{
+        min-height: 70vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/about/Image2.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: 110vw;
+    
+        section{
+            background-color: #FFF;
+            min-width: 81vw;
+            max-width: 81vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 30vh;
+            margin-bottom: 5vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 12px;
+            .title{
+                text-align: center;
+                color: #C68738;
+                font-size: 20px;
+                margin-top: 2vh;
+            }
+            .subtitle{
+                text-align: center
+    
+            }
+            text{
+                min-width: 70vw;
+                max-width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 11px;
+                line-height: 18px;
+    
+            }
+        }
+    }
+}
+@media (min-width:414px) and (min-height:736px){
+}
+@media (min-width:375px) and (min-height:812px){
+    .pageThreeContainerAbout{
+        min-height: 60vh;
+        min-width: 100vw;
+        background-color: #F2F2F2;
+        background-image: url('../../../img/about/Image2.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-size: 110vw;
+    
+        section{
+            background-color: #FFF;
+            min-width: 81vw;
+            max-width: 81vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            min-height: 25vh;
+            margin-bottom: 5vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-size: 12px;
+            .title{
+                text-align: center;
+                color: #C68738;
+                font-size: 20px;
+                margin-top: 2vh;
+            }
+            .subtitle{
+                text-align: center
+    
+            }
+            text{
+                min-width: 70vw;
+                max-width: 70vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 11px;
+                line-height: 18px;
+    
+            }
+        }
+    }
+}
+
+
+
+
 @media (min-width:800px) and (min-width:600px){
 
     .pageThreeContainerAbout{

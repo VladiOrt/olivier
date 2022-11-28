@@ -115,11 +115,11 @@ const Header = (props) =>{
             <div className="containerHeaderContent" ref={VentanaHeader}>
                 <label ref={Menu1} ><img src={Logo}   /></label>
                 <ul ref={Menu2} >
-                    <a href='http://localhost:3000/Home'><li>HOME  </li></a>
-                    <a href='http://localhost:3000/About'><li >ABOUT</li></a>
-                    <a href='http://localhost:3000/Vip'><li>VIP</li></a>
-                    <a href='http://localhost:3000/Gallery'><li>GALLERY</li></a>
-                    <a href='http://localhost:3000/Contact'><li>CONTACT</li></a>
+                    <a href='http://demo.olivierluxe.com/Home'><li>HOME  </li></a>
+                    <a href='http://demo.olivierluxe.com/About'><li >ABOUT</li></a>
+                    <a href='http://demo.olivierluxe.com/Vip'><li>VIP</li></a>
+                    <a href='http://demo.olivierluxe.com/Gallery'><li>GALLERY</li></a>
+                    <a href='http://demo.olivierluxe.com/Contact'><li>CONTACT</li></a>
                 </ul>
                 <div className="logosHeader" ref={Menu3}>
                     <img src={FacebookMobil} className='logoFace' />

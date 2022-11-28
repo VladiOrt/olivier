@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 
 import VideoLooper from 'react-video-looper'
-import sampleVideo from '../../../files/Video1.mp4'
+//import sampleVideo from '../../../files/Video1.mp4'
 
 import './index.scss'
 
@@ -15,7 +15,6 @@ const PageTwo = () =>{
         <div className="pageTwoContainerAbout">
             <div className="videoContainer">
 
-            <VideoLooper source={sampleVideo} start={0} end={130} muted={false} className="Video" />    
            
             </div>
             <section>
@@ -35,3 +34,9 @@ const PageTwo = () =>{
 }
 
 export default PageTwo
+
+/* 
+ <VideoLooper source={sampleVideo} start={0} end={130} muted={false} className="Video" />    
+           
+
+*/

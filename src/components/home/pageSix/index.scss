@@ -7,15 +7,15 @@
 
     .sectionOne{
         min-width: 100vw;
-        min-height: 15vh;
+        max-height: 100px;   
+        min-height: 100px;
         background-image: url('../../../img/home/Fondo5-1.webp');
         background-repeat: no-repeat;
         display:  flex;
         justify-content: center;
-        background-size: 150vw;
-        background-position-y: -5vh;
-        background-position-x: -25vw;
-        align-items: center;
+        background-size: 150%;
+        background-position-x: center;
+        background-position-y: center;
     }
     .sectionTwo{
         min-width: 100vw;
@@ -106,6 +106,231 @@
 }
 
 
+
+
+
+
+
+
+@media (min-width:320px) and (min-height:480px){}
+@media (min-width:320px) and (min-height:560px){
+    .PageSixContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    
+        .sectionOne{
+            min-width: 100vw;
+            max-height: 100px;   
+            min-height: 100px;
+            background-image: url('../../../img/home/Fondo5-1.webp');
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            background-size: 150%;
+            background-position-x: center;
+            background-position-y: center;
+        }
+        .sectionTwo{
+            min-width: 100vw;
+            min-height: 35vh;
+            background-image: url('../../../img/home/Fondo5-2.webp');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 150vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+        }
+        .sectionThree{
+            min-width: 100vw;
+            min-height: 20vh;
+            background-color: white;
+            background-image: url('../../../img/carruseles/img5-1.svg');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 35vw;
+            background-position-y: 4vh;
+            background-position-x: 35vw;
+        }
+        .sectionFour{
+            min-width: 100vw;
+            min-height: 35vh;
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            background-size: 130vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+    
+    
+            .ImageOne{
+    
+                z-index: 3;
+                position: absolute;
+                min-width: 100vw;
+                min-height: 35vh;
+                background-image: url('../../../img/home/Fondo5-01.webp');
+                background-size: cover;
+            }
+            .ImageTwo{
+                z-index: 2;
+                position: absolute;
+                min-width: 100vw;
+                min-height: 35vh;
+                background-image: url('../../../img/home/Fondo5-02.webp');
+                background-size: cover;
+            }
+            .ImageThree{
+                z-index: 1;
+                position: absolute;
+                min-width: 100vw;
+                min-height: 35vh;
+                background-image: url('../../../img/home/Fondo5-03.webp');
+                background-size: cover;
+            }
+    
+    
+        
+     
+    
+            ul{
+                z-index: 4;
+                min-width: 60vw;
+                margin-top: 45vw;
+                min-height: 5vh;
+                position: absolute;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                li{
+                    list-style: none;
+                    min-width: 15px;
+                    max-width: 15px;
+                    min-height: 15px;
+                    max-height: 15px;
+                    border-radius: 10px;
+                    border: 2px solid #C68738 ;
+                    background-color: aliceblue;
+                }
+            }
+    
+    
+        }
+          
+    }
+}
+@media (min-width:320px) and (min-height:568px){}
+@media (min-width:320px) and (min-height:640px){}
+@media (min-width:360px) and (min-height:640px){}
+@media (min-width:375px) and (min-height:667px){}
+@media (min-width:414px) and (min-height:736px){}
+@media (min-width:375px) and (min-height:812px){
+    .PageSixContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    
+        .sectionOne{
+            min-width: 100vw;
+            max-height: 100px;   
+            min-height: 100px;
+            background-image: url('../../../img/home/Fondo5-1.webp');
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            background-size: 150%;
+            background-position-x: center;
+            background-position-y: center;
+        }
+        .sectionTwo{
+            min-width: 100vw;
+            min-height: 30vh;
+            background-image: url('../../../img/home/Fondo5-2.webp');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 150vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+        }
+        .sectionThree{
+            min-width: 100vw;
+            min-height: 15vh;
+            background-color: white;
+            background-image: url('../../../img/carruseles/img5-1.svg');
+            background-repeat: no-repeat;
+            display:  flex;
+            background-size: 35vw;
+            background-position-y: 2.5vh;
+            background-position-x: 35vw;
+        }
+        .sectionFour{
+            min-width: 100vw;
+            min-height: 30vh;
+            background-repeat: no-repeat;
+            display:  flex;
+            justify-content: center;
+            background-size: 130vw;
+            background-position-y: 0vh;
+            background-position-x: -20vw;
+    
+    
+            .ImageOne{
+    
+                z-index: 3;
+                position: absolute;
+                min-width: 100vw;
+                min-height: 30vh;
+                background-image: url('../../../img/home/Fondo5-01.webp');
+                background-size: cover;
+            }
+            .ImageTwo{
+                z-index: 2;
+                position: absolute;
+                min-width: 100vw;
+                min-height: 30vh;
+                background-image: url('../../../img/home/Fondo5-02.webp');
+                background-size: cover;
+            }
+            .ImageThree{
+                z-index: 1;
+                position: absolute;
+                min-width: 100vw;
+                min-height: 30vh;
+                background-image: url('../../../img/home/Fondo5-03.webp');
+                background-size: cover;
+            }
+    
+
+            ul{
+                z-index: 4;
+                min-width: 60vw;
+                margin-top: 45vw;
+                min-height: 5vh;
+                position: absolute;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                li{
+                    list-style: none;
+                    min-width: 15px;
+                    max-width: 15px;
+                    min-height: 15px;
+                    max-height: 15px;
+                    border-radius: 10px;
+                    border: 2px solid #C68738 ;
+                    background-color: aliceblue;
+                }
+            }
+    
+    
+        }
+          
+    }
+}
 
 
 
