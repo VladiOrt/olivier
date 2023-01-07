@@ -11,12 +11,12 @@ import gsap from 'gsap'
 
 
 
-import Carrusel1Imagen1 from '../../../img/carruseles/img3-1.svg'
-import Carrusel1Imagen2 from '../../../img/carruseles/img3-2.svg'
-import Carrusel1Imagen3 from '../../../img/carruseles/img3-3.svg'
-import Carrusel1Imagen4 from '../../../img/carruseles/img3-4.svg'
-import Carrusel1Imagen5 from '../../../img/carruseles/img3-5.svg'
-import Carrusel1Imagen6 from '../../../img/carruseles/img3-1.svg'
+import Carrusel1Imagen1 from '../../../img/carruseles/img3-1.png'
+import Carrusel1Imagen2 from '../../../img/carruseles/img3-2.png'
+import Carrusel1Imagen3 from '../../../img/carruseles/img3-3.png'
+import Carrusel1Imagen4 from '../../../img/carruseles/img3-4.png'
+import Carrusel1Imagen5 from '../../../img/carruseles/img3-5.png'
+import Carrusel1Imagen6 from '../../../img/carruseles/img3-1.png'
 
 
 

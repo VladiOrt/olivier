@@ -6,12 +6,12 @@ import gsap from 'gsap'
 
 
 
-import Carrusel1Imagen1 from '../../../img/carruseles/img1-1.svg'
-import Carrusel1Imagen2 from '../../../img/carruseles/img1-2.svg'
-import Carrusel1Imagen3 from '../../../img/carruseles/img1-3.svg'
-import Carrusel1Imagen4 from '../../../img/carruseles/img1-4.svg'
-import Carrusel1Imagen5 from '../../../img/carruseles/img1-5.svg'
-import Carrusel1Imagen6 from '../../../img/carruseles/img1-6.svg'
+import Carrusel1Imagen1 from '../../../img/carruseles/img1.png'
+import Carrusel1Imagen2 from '../../../img/carruseles/img1-2.png'
+import Carrusel1Imagen3 from '../../../img/carruseles/img1-3.png'
+import Carrusel1Imagen4 from '../../../img/carruseles/img1-4.png'
+import Carrusel1Imagen5 from '../../../img/carruseles/img1-5.png'
+import Carrusel1Imagen6 from '../../../img/carruseles/img1-6.png'
 
 
 const PageTwo = () =>{

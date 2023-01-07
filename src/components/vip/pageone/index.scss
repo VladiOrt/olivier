@@ -12,7 +12,8 @@
     background-size: 120vw;
 
     section{
-
+        padding-top: 2vh;
+        padding-bottom: 2vh;
         background-color: #FFF;
         min-width: 81vw;
         max-width: 81vw;
@@ -24,7 +25,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 13px;
         .title{
             text-align: center;
             color: #CCA549;
@@ -46,7 +47,7 @@
             margin: 0px;
             text-align: center;
             font-family: Montserrat;
-            font-size: 10px;
+            font-size: 12px;
             line-height: 15px;
         }
     }
@@ -92,7 +93,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #CCA549;
@@ -114,7 +115,7 @@
                 margin: 0px;
                 text-align: center;
                 font-family: Montserrat;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 15px;
             }
         }
@@ -156,7 +157,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #CCA549;
@@ -178,7 +179,7 @@
                 margin: 0px;
                 text-align: center;
                 font-family: Montserrat;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 15px;
             }
         }
@@ -214,7 +215,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #CCA549;
@@ -236,7 +237,7 @@
                 margin: 0px;
                 text-align: center;
                 font-family: Montserrat;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 15px;
             }
         }
@@ -276,7 +277,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: left;
                 color: #C68738;
@@ -294,7 +295,7 @@
                 min-width: 32vw;
                 padding-left: 3vw;
                 max-width: 30vw;
-                font-size: 11px;
+                font-size: 12px;
                 margin-bottom: 5vh;
                 text-align: left;    
             }

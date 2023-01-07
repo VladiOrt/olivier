@@ -5,7 +5,7 @@
     align-items: center;
     background-color: black;
     color: #FFF;
-    font-size: 12px;
+    font-size: 13px;
     div{
         min-width: 100vw;
         display: flex;
@@ -14,6 +14,11 @@
         align-items: center;
         background-color: #3D1A1A;
 
+        a{
+            list-style: none;
+            text-decoration: none;
+            color: #FFF;
+        }
         .email{
             display: flex;
             min-width: 85vw;
@@ -21,6 +26,7 @@
             text-align: center;
             margin-top: 3vh;
             margin-bottom: 1vh;
+           
         }
         .phone{
             display: flex;
@@ -123,10 +129,11 @@
         align-items: center;
         background-color: black;
         color: #FFF;
-        font-size: 12px;
+        font-size: 13px;
         div{
             min-width: 75vw;
             max-width: 75vw;
+            min-height: 20vh;
             max-height: 20vh;
             display: flex;
             flex-wrap: wrap;
@@ -137,91 +144,114 @@
     
             .email{
                 display: flex;
-                min-width: 20vw;
+                min-width: 25vw;
+                min-height: 5vh;
                 justify-content: flex-start;
                 text-align: left;
-                margin-top: 2vh;
-                margin-bottom: 0vh;
                 border-left: 1px solid #FFF;
-                padding-left: 1vw;
-                font-size: 9px;
+                font-size: 0.8em;
+                margin: 0px;
+                padding: 0px;
+                padding-left: 5px;
             }
             .phone{
-
+                min-height: 5vh;
                 display: flex;
-                display: flex;
-                min-width: 20vw;
+                min-width: 25vw;                
                 justify-content: left;
                 text-align: center;
+                align-items: center;
                 margin-top: 0vh;
                 margin-bottom: 0vh;
                 border-left: 1px solid #FFF;
-                padding-left: 1vw;
-                padding-top: 1vw;
-                font-size: 9px;
-
+                font-size:0.8em;
+                margin: 0px;
+                padding: 0px;
+                padding-left: 5px;
             }
             .description{
                 display: flex;
-                min-width: 20vw;
-                max-width: 20vw;
-                justify-content: left;
+                min-width: 25vw;
+                max-width: 25vw;
+                min-height: 7vh;
+                justify-content: center;
+                align-items: flex-end;
                 text-align: left;
-                font-size: 9px;
-                margin-top: 0vh;
-                margin-bottom: 2vh;
+                font-size: 0.8em;            
                 border-left: 1px solid #FFF;
-                padding-left: 1vw;
-                padding-top: 1vw;
+                margin: 0px;
+                padding: 0px;
+                padding-left: 5px;
             }
     
     
             .home{
-                margin-top: 2vh;
-                margin-left: 0vw;
                 display: flex;
                 min-width: 10vw;
-                font-size: 12px;
-                justify-content: center;
+                min-height: 5vh;
+                font-size: 1.2em;
                 text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px;
+                padding: 0px;
+                
             }
             .vip{
+                min-height: 5vh;
                 margin-top: 2vh;
                 display: flex;
-                font-size: 12px;
+                font-size: 1.2em;
                 min-width: 10vw;
                 justify-content: center;
+                align-items: center;
                 text-transform: uppercase;
+                margin: 0px;
+                padding: 0px;
+                
             }
             .contact{
-                margin-top: 2vh;
-                display: flex;
-                font-size: 12px;
+                font-size: 1.2em;
                 min-width: 10vw;
+                min-height: 6vh;
+                display: flex;
                 justify-content: center;
+                align-items: flex-start;
                 text-transform: uppercase;
+                margin: 0px;
+                padding: 0px;
+                padding-top: 1vh;
             }
             .about{
                 min-height: 5vh;
                 margin-top: 2vh;
                 display: flex;
-                font-size: 12px;
+                font-size: 1.2em;
                 margin-left: 0px;
-                min-width: 10vw;
+                min-width: 12vw;
                 justify-content: center;
+                align-items: flex-start;
                 text-transform: uppercase;
+                margin: 0px;
+                padding: 0px;                
             }
             .gallery{
                 margin-top: -0.58vh;
                 display: flex;
-                font-size: 14px;
-                min-width: 20vw;
+                font-size: 1.2em;
+                min-width: 12vw;
+                min-height: 5vh;
                 justify-content: center;
+                align-items: center;
                 text-transform: uppercase;
                 margin-bottom: 0vh;
+                margin: 0px;
+                padding: 0px;
+                
             }
             .iconFace{   
-                min-height: 10vh;
+                min-height: 15vh;
                 margin-top: 3vh;
                 display: flex;
                 align-items: flex-start;
@@ -229,18 +259,24 @@
                 padding-right: 0vw;
                 justify-content: center;
                 margin-bottom: 0vh;
+                margin: 0px;
+                padding: 0px;
+                
                 img{
                     min-width: 1.55vw;
                 }
              }
             .iconInsta{
-                min-height: 10vh;
+                min-height: 15vh;
                 margin-top: 3vh;
                 display: flex;
                 align-items: flex-start;
                 min-width: 5vw;
                 padding-left: 0vw;
                 justify-content: center;
+                margin: 0px;
+                padding: 0px;
+                
                 img{
                     min-width: 3vw;
                 }

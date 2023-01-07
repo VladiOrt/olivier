@@ -33,13 +33,13 @@
     }
     .sectionThree{
         min-width: 100vw;
-        min-height: 20vh;
+        min-height: 100px;
         background-color: white;
-        background-image: url('../../../img/carruseles/img4-1.svg');
+        background-image: url('../../../img/carruseles/img4-1.png');
         background-repeat: no-repeat;
         display:  flex;
-        background-size: 110vw;
-        background-position-y: 5vh;
+        background-size: 90vw;
+        background-position-y: center;
         background-position-x: 5vw;
     }
     .sectionFour{
@@ -148,11 +148,11 @@
             min-width: 100vw;
             min-height: 100px;
             background-color: white;
-            background-image: url('../../../img/carruseles/img4-1.svg');
+            background-image: url('../../../img/carruseles/img4-1.png');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: cover;
-            background-position-y: 5vh;
+            background-size: 90vw;
+            background-position-y: center;
             background-position-x: center;
         }
         .sectionFour{
@@ -261,11 +261,11 @@
             min-width: 100vw;
             min-height: 100px;
             background-color: white;
-            background-image: url('../../../img/carruseles/img4-1.svg');
+            background-image: url('../../../img/carruseles/img4-1.png');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 110vw;
-            background-position-y: 5vh;
+            background-size: 90vw;
+            background-position-y: center;
             background-position-x: 5vw;
         }
         .sectionFour{
@@ -373,11 +373,11 @@
             min-width: 100vw;
             min-height: 100px;
             background-color: white;
-            background-image: url('../../../img/carruseles/img4-1.svg');
+            background-image: url('../../../img/carruseles/img4-1.png');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 110vw;
-            background-position-y: 2.5vh;
+            background-size: 90vw;
+            background-position-y: center;
             background-position-x: 5vw;
         }
         .sectionFour{
@@ -480,11 +480,11 @@
             min-width: 100vw;
             min-height: 100px;
             background-color: white;
-            background-image: url('../../../img/carruseles/img4-1.svg');
+            background-image: url('../../../img/carruseles/img4-1.png');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 110vw;
-            background-position-y: 1vh;
+            background-size: 90vw;
+            background-position-y: center;
             background-position-x: 5vw;
         }
         .sectionFour{
@@ -572,14 +572,13 @@
             order: 2;
             min-width: 40vw;
             min-height: 35vh;
-            background-image: url('../../../img/home/Fondo4-1Desktop.svg');
+            background-image: url('../../../img/home/Fondo4-1Desktop.png');
             background-repeat: no-repeat;
             display:  flex;
             justify-content: center;
             background-size: 80vw;
-            background-position-y: -10vh;
-            background-position-x: -20vw;
-            align-items: center;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionTwo{
             order: 1;
@@ -588,21 +587,22 @@
             background-image: url('../../../img/home/Fondo4-2.webp');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 90vw;
+            background-size: cover;
             background-position-y: 0vh;
             background-position-x: -10vw;
         }
         .sectionThree{
             order: 3;
             min-width: 100vw;
-            min-height: 20vh;
+            min-height: 100px;
             background-color: white;
-            background-image: url('../../../img/home/Fondo4-3.svg');
+            background-image: url('../../../img/home/Fondo4-3.png');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 70vw;
-            background-position-y: 5vh;
-            background-position-x: 15vw;
+            background-size: 40em;
+            background-position-y: center;
+            background-position-x: center;
+
         }
         .sectionFour{
             order: 4;
@@ -626,6 +626,7 @@
                 background-image: url('../../../img/home/Fondo4-01.webp');
                 background-size: cover;
                 background-repeat: no-repeat;
+                background-position: center;
             }
             .ImageTwo{
                 z-index: 2;
@@ -635,6 +636,7 @@
                 background-image: url('../../../img/home/Fondo4-02.webp');
                 background-size: cover;
                 background-repeat: no-repeat;
+                background-position-x: center;
             }
             .ImageThree{
                 z-index: 1;
@@ -677,4 +679,20 @@
     }
     
 
+}
+
+
+
+
+
+
+@media (min-width: 1024px) and (min-width:600px){
+}
+@media (min-width: 1280px) and (min-width:720px){
+}
+@media (min-width: 1280px) and (min-width:800px){
+}
+@media (min-width: 1400px) and (min-width: 900px){
+}
+@media (min-width: 1600px) and (min-width: 1200px){
 }

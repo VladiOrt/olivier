@@ -22,11 +22,11 @@
     }
     .titleOne{
         margin-top: 1.5vh;
-        min-width: 85vw;
-        max-width: 85vw;
+        min-width: 89vw;
+        max-width: 89vw;
         text-align: center;
         color: #FFF;
-        font-size: 12px;
+        font-size: 13px;
         min-height: 5vh;
 
         display: flex;
@@ -42,14 +42,9 @@
         max-width: 85vw;
         text-align: center;
         color: #FFF;
-        font-size: 12px;
+        font-size: 13px;
     }
 }
-
-
-
-
-
 
 @media (min-width:320px) and (min-height:480px){}
 @media (min-width:320px) and (min-height:560px){}
@@ -80,8 +75,8 @@
         }
         .titleOne{
             margin-top: 1.5vh;
-            min-width: 85vw;
-            max-width: 85vw;
+            min-width: 89vw;
+            max-width: 89vw;
             text-align: center;
             color: #FFF;
             font-size: 14px;
@@ -131,8 +126,8 @@
         }
         .titleOne{
             margin-top: 1.5vh;
-            min-width: 85vw;
-            max-width: 85vw;
+            min-width: 89vw;
+            max-width: 89vw;
             text-align: center;
             color: #FFF;
             font-size: 14px;
@@ -178,7 +173,8 @@
             margin-top: 30vh;
             text-align: center;
             img{
-                color: #FFF;               
+                min-width: 20vw;
+                color: #FFF;              
             }
             
 
@@ -192,7 +188,7 @@
             max-width: 35vw;
             text-align: center;
             color: #FFF;
-            font-size: 12px;
+            font-size: 1.2em;
             min-height: 5vh;
     
             display: flex;
@@ -209,8 +205,23 @@
             max-width: 35vw;
             text-align: right;
             color: #FFF;
-            font-size: 14px;
+            font-size: 1em;
         }
     }
     
+}
+
+
+
+
+
+@media (min-width: 1024px) and (min-width:600px){
+}
+@media (min-width: 1280px) and (min-width:720px){
+}
+@media (min-width: 1280px) and (min-width:800px){
+}
+@media (min-width: 1400px) and (min-width: 900px){
+}
+@media (min-width: 1600px) and (min-width: 1200px){
 }

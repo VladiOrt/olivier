@@ -3,14 +3,14 @@ import './index.scss'
 import { useRef, useState } from 'react';
 import gsap from 'gsap'
 
-import Carrusel1Imagen1 from '../../../img/carruseles/img2-1.svg'
-import Carrusel1Imagen2 from '../../../img/carruseles/img2-2.svg'
-import Carrusel1Imagen3 from '../../../img/carruseles/img2-3.svg'
-import Carrusel1Imagen4 from '../../../img/carruseles/img2-4.svg'
-import Carrusel1Imagen5 from '../../../img/carruseles/img2-5.svg'
-import Carrusel1Imagen6 from '../../../img/carruseles/img2-6.svg'
-import Carrusel1Imagen7 from '../../../img/carruseles/img2-7.svg'
-import Carrusel1Imagen8 from '../../../img/carruseles/img2-1.svg'
+import Carrusel1Imagen1 from '../../../img/carruseles/img2-1.png'
+import Carrusel1Imagen2 from '../../../img/carruseles/img2-2.png'
+import Carrusel1Imagen3 from '../../../img/carruseles/img2-3.png'
+import Carrusel1Imagen4 from '../../../img/carruseles/img2-4.png'
+import Carrusel1Imagen5 from '../../../img/carruseles/img2-5.png'
+import Carrusel1Imagen6 from '../../../img/carruseles/img2-6.png'
+import Carrusel1Imagen7 from '../../../img/carruseles/img2-7.png'
+import Carrusel1Imagen8 from '../../../img/carruseles/img2-1.png'
 
 
 

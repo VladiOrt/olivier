@@ -22,14 +22,13 @@
             background-position-y: center;
     }
     .sectionTwo{
-
         min-width: 100vw;
         min-height: 35vh;
         background-image: url('../../../img/home/fondo2.webp');
         background-repeat: no-repeat;
         display:  flex;
         background-size: cover;
-        background-position-y: 0vh;
+        background-position-y: center;
         background-position-x: center;
     }
     .sectionThree{
@@ -174,17 +173,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width:320px) and (min-height:480px){}
 @media (min-width:320px) and (min-height:560px){
     .PageTwoContainer{
@@ -213,9 +201,9 @@
             background-image: url('../../../img/home/fondo2.webp');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 175vw;
-            background-position-y: 0vh;
-            background-position-x: -35vw;
+            background-size: cover;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionThree{
             min-width: 100vw;
@@ -330,9 +318,9 @@
             background-image: url('../../../img/home/fondo2.webp');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 175vw;
-            background-position-y: 0vh;
-            background-position-x: -35vw;
+            background-size: cover;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionThree{
             min-width: 100vw;
@@ -437,9 +425,9 @@
             background-image: url('../../../img/home/fondo2.webp');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 175vw;
-            background-position-y: 0vh;
-            background-position-x: -35vw;
+            background-size: cover;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionThree{
             min-width: 100vw;
@@ -549,8 +537,8 @@
             display:  flex;
             justify-content: center;
             background-size: 65vw;
-            background-position-y: -5vh;
-            background-position-x: -12vw;
+            background-position-y: center;
+            background-position-x: center;
             align-items: center;
         }
         .sectionTwo{
@@ -565,7 +553,7 @@
         }
         .sectionThree{
             min-width: 100vw;
-            min-height: 0vh;
+            min-height: 100px;
             background-color: white;
             background-image: none;
             background-repeat: no-repeat;
@@ -573,6 +561,18 @@
             background-size: 130vw;
             background-position-y: 2.5vh;
             background-position-x: -10vw;
+            .slider {
+                .slide {
+                    img{
+                        min-width: 10em;
+                        max-width: 10em;
+                    }
+                    .img1 {
+                        min-width: 12em;
+                        max-width: 12em;
+                    }
+                }
+            }
         }
         .sectionFour{
             min-width: 100vw;
@@ -583,8 +583,6 @@
             background-size: 130vw;
             background-position-y: 0vh;
             background-position-x: -20vw;
-    
-    
     
 
             .ImageOne{
@@ -641,4 +639,20 @@
           
     }
     
+}
+
+
+
+
+
+
+@media (min-width: 1024px) and (min-width:600px){
+}
+@media (min-width: 1280px) and (min-width:720px){
+}
+@media (min-width: 1280px) and (min-width:800px){
+}
+@media (min-width: 1400px) and (min-width: 900px){
+}
+@media (min-width: 1600px) and (min-width: 1200px){
 }

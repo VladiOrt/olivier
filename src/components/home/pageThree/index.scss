@@ -672,13 +672,13 @@
             order: 2;
             min-width: 40vw;
             min-height: 35vh;
-            background-image: url('../../../img/home/Fondo2-1Desktop.svg');
+            background-image: url('../../../img/home/Fondo2-1Desktop.png');
             background-repeat: no-repeat;
             display:  flex;
             justify-content: center;
             background-size: 65vw;
-            background-position-y: -5vh;
-            background-position-x: -12vw;
+            background-position-y: center;
+            background-position-x: center;
             align-items: center;
         }
         .sectionTwo{
@@ -688,14 +688,14 @@
             background-image: url('../../../img/home/Fondo2-2.webp');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 150vw;
-            background-position-y: 0vh;
-            background-position-x: -20vw;
+            background-size: cover;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionThree{
             order: 3;
             min-width: 100vw;
-            min-height: 20vh;
+            min-height: 100px;
             background-color: #F2F2F2;
             background-image: none;
             background-repeat: no-repeat;
@@ -768,42 +768,43 @@
                     justify-content: center;
                     align-items: center;
                     img{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 10em;
+                        max-width: 10em;
                     }
                     .img1{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        border: 1px solid green;
+                        min-width: 10em;
+                        max-width: 10em;
                     }
                     .img2{
-                        min-width: 10vw;
-                        max-width: 10vw;
+                        min-width: 10em;
+                        max-width: 10em;
                     }
                     .img3{
                         
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 10em;
+                        max-width: 10em;
                     }
                     .img4{
                         
-                        min-width: 10vw;
-                        max-width: 10vw;
+                        min-width: 5em;
+                        max-width: 5em;
                     }
                     .img5{
-                        min-width: 5vw;
-                        max-width: 5vw;
+                        min-width: 3em;
+                        max-width: 3em;
                     }
                     .img6{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 5em;
+                        max-width: 5em;
                     }
                     .img7{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 5em;
+                        max-width: 5em;
                     }
                     .img8{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 5em;
+                        max-width: 5em;
                     }
                 }
             }
@@ -895,4 +896,22 @@
     
 
 
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) and (min-width:600px){
+}
+@media (min-width: 1280px) and (min-width:720px){
+}
+@media (min-width: 1280px) and (min-width:800px){
+}
+@media (min-width: 1400px) and (min-width: 900px){
+}
+@media (min-width: 1600px) and (min-width: 1200px){
 }

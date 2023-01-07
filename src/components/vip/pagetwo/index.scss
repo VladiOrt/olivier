@@ -10,7 +10,8 @@
     background-size: 100vw;
 
     section{
-
+        padding-top: 2vh;
+        padding-bottom: 2vh;
         background-color: #FFF;
         min-width: 81vw;
         max-width: 81vw;
@@ -21,7 +22,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        font-size: 12px;
+        font-size: 13px;
         .title{
             text-align: center;
             color: #C68738;
@@ -39,7 +40,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            font-size: 10px;
+            font-size: 12px;
             font-family: Montserrat;
             line-height: 15px;
 
@@ -83,7 +84,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -102,7 +103,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
                 font-family: Montserrat;
                 line-height: 18px;
     
@@ -141,7 +142,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -159,7 +160,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
                 font-family: Montserrat;
                 line-height: 18px;
     
@@ -201,7 +202,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: left;
                 color: #C68738;
@@ -219,7 +220,7 @@
                 min-width: 32vw;
                 padding-left: 3vw;
                 max-width: 30vw;
-                font-size: 11px;
+                font-size: 12px;
                 margin-bottom: 0vh;
                 text-align: left;    
             }

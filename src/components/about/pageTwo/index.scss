@@ -21,10 +21,12 @@
         }
     }
     section{
-
+        z-index: 2;
         background-color: #FFF;
         min-width: 81vw;
         max-width: 81vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
         padding-left: 2vw;
         padding-right: 2vw;
         min-height: 45vh;
@@ -33,7 +35,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: 12px;
+        font-size: 13px;
         .title{
             text-align: center;
             color: #C68738;
@@ -48,7 +50,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            font-size: 10px;
+            font-size: 12px;
             line-height: 15px;
         }
         text{
@@ -58,7 +60,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            font-size: 10px;
+            font-size: 12px;
             line-height: 15px;
 
         }
@@ -114,7 +116,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -129,7 +131,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 11px;
+                font-size: 12px;
                 line-height: 15px;
             }
             text{
@@ -139,7 +141,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 11px;
+                font-size: 12px;
                 line-height: 15px;
     
             }
@@ -182,7 +184,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -197,7 +199,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 15px;
             }
             text{
@@ -207,7 +209,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 15px;
     
             }
@@ -250,7 +252,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -265,7 +267,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 18px;
             }
             text{
@@ -275,7 +277,7 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                font-size: 12px;
+                font-size: 13px;
                 line-height: 18px;
     
             }
@@ -318,7 +320,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -386,7 +388,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: center;
                 color: #C68738;
@@ -476,7 +478,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             .title{
                 text-align: left;
                 color: #C68738;
@@ -491,14 +493,14 @@
                 min-width: 32vw;
                 padding-left: 3vw;
                 text-align: left;       
-                font-size: 11px;
+                font-size: 12px;
             }
             text{
                 margin-top: 0vh;
                 min-width: 32vw;
                 padding-left: 3vw;
                 max-width: 30vw;
-                font-size: 11px;
+                font-size: 12px;
                 margin-bottom: 0vh;
                 text-align: left;    
             }

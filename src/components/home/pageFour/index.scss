@@ -256,6 +256,7 @@
         .sectionThree{
             min-width: 100vw;
             min-height: 100px;
+            max-height: 100px;
             
             background-color: white;
             background-image: none;
@@ -363,7 +364,9 @@
         }
         .sectionThree{
             min-width: 100vw;
-            min-height: 15vh;
+            min-height: 100px;
+            max-height: 100px;
+            
             background-color: white;
             background-image: none;
             background-repeat: no-repeat;
@@ -472,7 +475,9 @@
         }
         .sectionThree{
             min-width: 100vw;
-            min-height: 10vh;
+            min-height: 100px;
+            max-height: 100px;
+            
             background-color: white;
             background-image: none;
             background-repeat: no-repeat;
@@ -565,15 +570,14 @@
         .sectionOne{
             min-width: 40vw;
             min-height: 35vh;
-            background-image: url('../../../img/home/Fondo3-1Desktop.svg');
+            background-image: url('../../../img/home/Fondo3-1Desktop.png');
             background-size: cover;
             background-repeat: no-repeat;
             display:  flex;
             justify-content: center;
-            background-size: 70vw;
-            background-position-y: -8vh;
-            background-position-x: -17vw;
-            align-items: center;
+            background-size: 80vw;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionTwo{
             min-width: 60vw;
@@ -581,13 +585,13 @@
             background-image: url('../../../img/home/Fondo3-2.webp');
             background-repeat: no-repeat;
             display:  flex;
-            background-size: 150vw;
-            background-position-y: 0vh;
-            background-position-x: -20vw;
+            background-size: cover;
+            background-position-y: center;
+            background-position-x: center;
         }
         .sectionThree{
             min-width: 100vw;
-            min-height: 20vh;
+            min-height: 100px;
             background-color: white;
             background-image: none;
             background-repeat: no-repeat;
@@ -660,32 +664,32 @@
                     justify-content: center;
                     align-items: center;
                     img{
-                        min-width: 10vw;
-                        max-width: 10vw;
+                        min-width: 8em;
+                        max-width: 8em;
                     }
                     .img1{
-                        min-width: 10vw;
-                        max-width: 10vw;
+                        min-width: 10em;
+                        max-width: 10em;
                     }
                     .img2{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 8em;
+                        max-width: 8em;
                     }
                     .img3{
-                        min-width: 10vw;
-                        max-width: 10vw;
+                        min-width: 5em;
+                        max-width: 5em;
                     }
                     .img4{
-                        min-width: 20vw;
-                        max-width: 20vw;
+                        min-width: 8em;
+                        max-width: 8em;
                     }
                     .img5{
-                        min-width: 40vw;
-                        max-width: 40vw;
+                        min-width: 12em;
+                        max-width: 12em;
                     }
                     .img6{
-                        min-width: 40vw;
-                        max-width: 40vw;
+                        min-width: 8em;
+                        max-width: 8em;
                     }
                 }
             }
@@ -774,4 +778,17 @@
     
     
 
+}
+
+
+
+@media (min-width: 1024px) and (min-width:600px){
+}
+@media (min-width: 1280px) and (min-width:720px){
+}
+@media (min-width: 1280px) and (min-width:800px){
+}
+@media (min-width: 1400px) and (min-width: 900px){
+}
+@media (min-width: 1600px) and (min-width: 1200px){
 }

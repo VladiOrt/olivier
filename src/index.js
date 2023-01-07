@@ -24,6 +24,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<Contact />} />
+      <Route path='/:' element={<Contact />} />
+      <Route path='/Home' element={<Home />} />
       <Route path='/Home' element={<Home />} />
       <Route path='/About' element={<About />} />
       <Route path='/Vip' element={<Vip />} />
